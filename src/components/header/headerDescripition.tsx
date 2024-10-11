@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { NotificationsIcon } from "../../assets";
 
 const HeaderDescription = styled.div`
     display:flex;
@@ -10,7 +11,7 @@ const HeaderDescription = styled.div`
     align-items: center;
 `
 const DescriptionVersion = styled.h2`
-    padding: 0 1em 0 0;
+    padding: 0 .4em 0 0;
     margin: 0;
     color: #FFFFFF40; 
     font-size: 16px;
@@ -52,6 +53,7 @@ function HeaderDescripition(){
     return(
         <HeaderDescription>
                 <DescriptionVersion>v_prod-b4ae026</DescriptionVersion>
+                <img src={NotificationsIcon} />
                 <DescriptionUser>
                     <UserIcon>CF</UserIcon>
                     <UserName>Caio Ferrareze</UserName>
