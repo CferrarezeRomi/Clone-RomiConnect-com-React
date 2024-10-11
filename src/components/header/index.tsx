@@ -6,12 +6,14 @@ const HeaderContainer = styled.div`
     display: flex;
     align-items: center;
     background-color:#4682b4;
-    padding: .5em 1.5em;
-    box-shadow: 0px 3px 6px #00000029;
+    padding: .8em 1.5em;
+    box-shadow: 0px 6px 6px #00000029;
     opacity: 1;
 `
 const HeaderImg = styled.img`
-    width: 100px;
+    width: 110px;
+    padding: 0;
+    margin: 0;
 `
 function Header() {
     return(

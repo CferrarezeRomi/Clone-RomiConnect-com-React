@@ -34,8 +34,8 @@ const CardImgContaider = styled.div<{color?: string}>`
     align-items: center;
     border: 0.5px solid #27272766;
     border-radius: 4px;
-    width: 25.875em;
-    height: 5em;
+    width: 24.5em;
+    height: 6em;
     border-radius: 4px 4px 0px 0px;
     background: ${(props)=> props.color};
 `
@@ -44,8 +44,8 @@ const CardDescriptionContainer = styled.div`
     flex-direction: column;
     padding: 1em;
     background-color: #FFFFFF;
-    height: 5em;
-    width: 25.875em;
+    height: 6em;
+    width: 24.5em;
     justify-content: center;
     gap: 5px;
     border-left:0.5px solid #27272766; 
