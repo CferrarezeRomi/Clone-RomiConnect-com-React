@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { NotificationsIcon } from "../../assets";
 
 const HeaderDescription = styled.div`
     display:flex;
@@ -52,6 +53,7 @@ function HeaderDescripition(){
     return(
         <HeaderDescription>
                 <DescriptionVersion>v_prod-b4ae026</DescriptionVersion>
+                <img src={NotificationsIcon} />
                 <DescriptionUser>
                     <UserIcon>CF</UserIcon>
                     <UserName>Caio Ferrareze</UserName>
