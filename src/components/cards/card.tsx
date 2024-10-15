@@ -1,7 +1,6 @@
 import styled from "styled-components"
 import ImgFab from "../../assets/Logo_fabrica.svg"
 import ImgRent from "../../assets/Logo_locacao.svg"
-import ImgInsta from "../../assets/Logo_instalador.svg"
 
 interface CardProps {
     image: React.ReactNode; 
@@ -74,12 +73,6 @@ export const cardData = [
         title: "Locação",
         text: "Monitore a utilização e informações relevantes do aluguel.",
         color: "linear-gradient(180deg, #00AE06 0%, #0D6E10 100%) 0% 0% no-repeat padding-box;"
-    },
-    {
-        image: <img src={ImgInsta} alt="Logo_Instalador" />,
-        title: "Instalador",
-        text: "Instale, atualize e atribua máquinas a clientes.",
-        color: "linear-gradient(180deg, #59009E 0%, #36065B 100%) 0% 0% no-repeat padding-box;"
     }
 ]
 function Card ({image, title, text, color}: CardProps) {
